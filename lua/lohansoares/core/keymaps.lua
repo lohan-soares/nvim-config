@@ -17,11 +17,11 @@ keymap.set('n', '<leader>sm', ':MaximizerToggle<CR>')
 keymap.set('n', '<leader>e', ':NvimTreeToggle<CR>')
 
 -- telescope 
-keymap.set('n', '<leader>ff', '<cmd>belescope find_files<CR>')
-keymap.set('n', '<leader>fg', '<cmd>belescope live_grep<CR>')
-keymap.set('n', '<leader>fc', '<cmd>belescope grep_string<CR>')
-keymap.set('n', '<leader>fb', '<cmd>belescope buffers<CR>')
-keymap.set('n', '<leader>fh', '<cmd>belescope help_tags<CR>')
+keymap.set('n', '<leader>ff', '<cmd>Telescope find_files<CR>')
+keymap.set('n', '<leader>fg', '<cmd>Telescope live_grep<CR>')
+keymap.set('n', '<leader>fc', '<cmd>Telescope grep_string<CR>')
+keymap.set('n', '<leader>fb', '<cmd>Telescope buffers<CR>')
+keymap.set('n', '<leader>fh', '<cmd>Telescope help_tags<CR>')
 
 -- barbar
 local opts = { noremap = true, silent = true }
