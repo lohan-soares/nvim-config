@@ -94,7 +94,11 @@ lspconfig['gopls'].setup {
                 unusedvariable = true,
                 unusedwrite = true,
                 useany = true,
-            }
+            },
+            hoverKind = "FullDocumentation",
+            linkTarget = "pkg.go.dev",
+            usePlaceholders = true,
+            vulncheck = "Imports",
         }
     }
 }
